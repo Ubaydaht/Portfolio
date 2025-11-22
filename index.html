@@ -10,7 +10,7 @@
 <style>
     body{
         background: linear-gradient(13deg, #1B263B, #34568B, #1E90FF, #2E4057 );
-        padding: 2% 15% 5% 15%;
+        padding: 2% 15% 1% 15%;
     }
     .barNav{
         border: 3px solid #0000bbbb;
@@ -170,6 +170,12 @@
             width: 100%;
             border-radius: 95% 62% 73% 67%;
         }
+        .card-bg{
+            margin-bottom: 30px;
+        }
+        .view{
+            margin: 10px;
+        }
 
     }
     @media (max-width: 694px) {
@@ -267,8 +273,7 @@
     <p class="px-4">I'm always learning and improving my skills by creating real projects and exploring new design ideas.</p>
 </div>
 <div class="skill-set" id="skill">
-    <h1 class="text-center ">My Skills</h1>
-    <p class="text-center">Technologies I've been working with recently</p>
+    <h1 class="text-center py-4">My Skills</h1>
     <div class="d-flex gap-5 justify-content-center">
        <img src="Images/material-icon-theme--html.svg" alt="" width="50px">
        <img src="Images/skill-icons--css.svg" alt="" width="50px">
@@ -279,8 +284,7 @@
     </div>
 </div>
 <div class="project py-5" id="project">
-    <h1 class="text-light text-center">My Projects</h1>
-    <p class="text-light text-center py-2"> Things I have built so far</p>
+    <h1 class="text-light text-center py-4">My Projects</h1>
     <div class="d-lg-flex justify-content-between">
         <!-- first card  -->
         <div class="card card-bg rounded-5" style="width: 18rem;">
@@ -324,13 +328,13 @@
     
        
 </div>
-    <div class="d-lg-flex justify-content-between">
+    <div class="d-lg-flex gap-5">
         <!-- first card  -->
         <div class="card card-bg rounded-5" style="width: 18rem;">
                 <img src="Images/numba.PNG" class="card-img-top " alt="..." style="height: 30vh;">
             <div class="card-body text-light">
                 <h5 class="card-title">Cloned Nomba Website Page</h5>
-                <p class="card-text fs-3">HTML CSS</p>
+                <p class="card-text fs-3">HTML CSS BOOTSTRAP</p>
                 <div class="d-flex gap-3 ">
                     <a href="https://github.com/Ubaydaht/Nomba" class="btn view text-light"> <img src="Images/ri--github-fill.svg" alt="">View Code</a>
                 <a href="https://nomba-sand.vercel.app/" class="btn view text-light "> Live Demo</a>
@@ -339,41 +343,24 @@
             </div>
             <!-- second card  -->
              <div class="card card-bg rounded-5" style="width: 18rem; ">
-                <img src="Images/credpal.PNG" class="card-img-top " alt="..." style="height: 30vh;">
+                <img src="Images/cowry.PNG" class="card-img-top " alt="..." style="height: 30vh;">
             <div class="card-body text-light">
                 <h5 class="card-title"> Cloned Cowrywise page</h5>
                 <p class="card-text fs-3">HTML CSS</p>
                 <div class="d-flex gap-3 ">
-                    <a href="https://github.com/Ubaydaht/Credpal" class="btn view text-light"> <img src="Images/ri--github-fill.svg" alt="">View Code</a>
-                <a href="https://credpal-eight.vercel.app/" class="btn view text-light "> Live Demo</a>
+                    <a href="https://github.com/Ubaydaht/Cowrywise" class="btn view text-light"> <img src="Images/ri--github-fill.svg" alt="">View Code</a>
+                <a href="https://cowrywise-ivory.vercel.app/" class="btn view text-light "> Live Demo</a>
                 </div>
             </div>
             </div>
             <!-- third card -->
-             <div class="card card-bg rounded-5" style="width: 18rem; ">
-                <img src="Images/rise.PNG" class="card-img-top " alt="..." style="height: 30vh;">
-            <div class="card-body text-light">
-                <h5 class="card-title">Responsive Cloned Risevest Home page</h5>
-                <p class="card-text fs-4">HTML CSS BOOTSRAP</p>
-                <div class="d-flex gap-3 ">
-                    <a href="https://github.com/Ubaydaht/Risevest" class="btn view text-light"> <img src="Images/ri--github-fill.svg" alt="">View Code</a>
-                <a href="https://risevest-drab.vercel.app/" class="btn view text-light "> Live Demo</a>
-                </div>
-            </div>
-            </div>
-
-
-    </div>
-    
-       
+    </div>   
 </div>
-
-
 <!-- contact me  -->
-<div class="contact" id="contact">
+<div class="contact pt-5" id="contact">
         <h1 class="text-light pt-2 text-center">Contact Me</h1>
         <p class="text-light text-center ">I am interested in...</p>
-        <div class="d-flex gap-3 justify-content-center py-2">
+        <div class="d-lg-flex gap-3 justify-content-center py-2 contactme">
             <button  class="btn view text-light "> Landing page</button>
             <button href="" class="btn view text-light "> Blog Website</button>
             <button class="btn view text-light "> SaaS website</button> 
@@ -393,9 +380,8 @@
 
 
 
-
-
-
+<hr class="text-light fw-bold">
+<footer class="text-light text-center">Designed and built by <span class="fw-bold" style="color: #0099ff;">Ubaydah</span> 2025</footer>
    
 
 
